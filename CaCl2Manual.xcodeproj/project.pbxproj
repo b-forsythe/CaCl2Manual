@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9E35D8102C0F9E5E00DF87A6 /* CaCl2ManualApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D80F2C0F9E5E00DF87A6 /* CaCl2ManualApp.swift */; };
-		9E35D8122C0F9E5E00DF87A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D8112C0F9E5E00DF87A6 /* ContentView.swift */; };
+		9E35D8122C0F9E5E00DF87A6 /* CaCl_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D8112C0F9E5E00DF87A6 /* CaCl_Home.swift */; };
 		9E35D8142C0F9E5F00DF87A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E35D8132C0F9E5F00DF87A6 /* Assets.xcassets */; };
 		9E35D8172C0F9E5F00DF87A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E35D8162C0F9E5F00DF87A6 /* Preview Assets.xcassets */; };
 		9E35D8212C0F9E5F00DF87A6 /* CaCl2ManualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D8202C0F9E5F00DF87A6 /* CaCl2ManualTests.swift */; };
 		9E35D82B2C0F9E5F00DF87A6 /* CaCl2ManualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D82A2C0F9E5F00DF87A6 /* CaCl2ManualUITests.swift */; };
 		9E35D82D2C0F9E5F00DF87A6 /* CaCl2ManualUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D82C2C0F9E5F00DF87A6 /* CaCl2ManualUITestsLaunchTests.swift */; };
+		9E35D83A2C0FA78E00DF87A6 /* CaCl_Uses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D8392C0FA78E00DF87A6 /* CaCl_Uses.swift */; };
+		9E35D83E2C0FAED100DF87A6 /* CaCl_Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D83D2C0FAED100DF87A6 /* CaCl_Instructions.swift */; };
+		9E35D8442C1903DC00DF87A6 /* CaCl_Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35D8432C1903DC00DF87A6 /* CaCl_Safety.swift */; };
+		9EAB91842C4ECD8D0080521E /* CaCl_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB91832C4ECD8D0080521E /* CaCl_Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		9E35D80C2C0F9E5E00DF87A6 /* CaCl2Manual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaCl2Manual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E35D80F2C0F9E5E00DF87A6 /* CaCl2ManualApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl2ManualApp.swift; sourceTree = "<group>"; };
-		9E35D8112C0F9E5E00DF87A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E35D8112C0F9E5E00DF87A6 /* CaCl_Home.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CaCl_Home.swift; sourceTree = "<group>"; };
 		9E35D8132C0F9E5F00DF87A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E35D8162C0F9E5F00DF87A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E35D81C2C0F9E5F00DF87A6 /* CaCl2ManualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaCl2ManualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		9E35D8262C0F9E5F00DF87A6 /* CaCl2ManualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaCl2ManualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E35D82A2C0F9E5F00DF87A6 /* CaCl2ManualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl2ManualUITests.swift; sourceTree = "<group>"; };
 		9E35D82C2C0F9E5F00DF87A6 /* CaCl2ManualUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl2ManualUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E35D8392C0FA78E00DF87A6 /* CaCl_Uses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl_Uses.swift; sourceTree = "<group>"; };
+		9E35D83D2C0FAED100DF87A6 /* CaCl_Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl_Instructions.swift; sourceTree = "<group>"; };
+		9E35D8432C1903DC00DF87A6 /* CaCl_Safety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl_Safety.swift; sourceTree = "<group>"; };
+		9EAB91832C4ECD8D0080521E /* CaCl_Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCl_Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				9E35D80F2C0F9E5E00DF87A6 /* CaCl2ManualApp.swift */,
-				9E35D8112C0F9E5E00DF87A6 /* ContentView.swift */,
+				9E35D8112C0F9E5E00DF87A6 /* CaCl_Home.swift */,
+				9E35D8392C0FA78E00DF87A6 /* CaCl_Uses.swift */,
+				9E35D83D2C0FAED100DF87A6 /* CaCl_Instructions.swift */,
+				9E35D8432C1903DC00DF87A6 /* CaCl_Safety.swift */,
+				9EAB91832C4ECD8D0080521E /* CaCl_Calculator.swift */,
 				9E35D8132C0F9E5F00DF87A6 /* Assets.xcassets */,
 				9E35D8152C0F9E5F00DF87A6 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E35D8122C0F9E5E00DF87A6 /* ContentView.swift in Sources */,
+				9EAB91842C4ECD8D0080521E /* CaCl_Calculator.swift in Sources */,
+				9E35D8122C0F9E5E00DF87A6 /* CaCl_Home.swift in Sources */,
+				9E35D83E2C0FAED100DF87A6 /* CaCl_Instructions.swift in Sources */,
 				9E35D8102C0F9E5E00DF87A6 /* CaCl2ManualApp.swift in Sources */,
+				9E35D8442C1903DC00DF87A6 /* CaCl_Safety.swift in Sources */,
+				9E35D83A2C0FA78E00DF87A6 /* CaCl_Uses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,21 +436,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"CaCl2Manual/Preview Content\"";
+				DEVELOPMENT_TEAM = XW663QBA75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = INE.CaCl2Manual;
+				PRODUCT_BUNDLE_IDENTIFIER = INE.CaCl2Manual.bf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,21 +466,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"CaCl2Manual/Preview Content\"";
+				DEVELOPMENT_TEAM = XW663QBA75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = INE.CaCl2Manual;
+				PRODUCT_BUNDLE_IDENTIFIER = INE.CaCl2Manual.bf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,8 +495,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW663QBA75;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -494,8 +516,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW663QBA75;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
