@@ -28,7 +28,7 @@ struct CaCl_Instructions: View {
         Spacer()
         
         VStack {
-            DisclosureGroup("Steps for Solid Application", isExpanded: $isDryExpanded) {
+            DisclosureGroup("Steps to apply Solid Topical Application", isExpanded: $isDryExpanded) {
                 Text(" 1. Shape Road \n 2. Compact \n 3. Loosen upper ~2 in. \n 4. Add Salt \n 5. Water \n 6. Compact ")
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment:.leading)
                     .padding(.vertical)
